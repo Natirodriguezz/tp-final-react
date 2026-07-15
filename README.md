@@ -8,7 +8,7 @@ La aplicación permite visualizar información de personajes mediante una interf
 
 El objetivo del proyecto es aplicar conocimientos de desarrollo frontend, trabajando con componentes, estilos, organización de archivos y consumo de datos externos.
 
-## Tecnologías utilizadas
+## Lenguaje de progrmacion, diseño y estructura
 
 - React
 - Vite
