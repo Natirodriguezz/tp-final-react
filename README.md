@@ -24,7 +24,6 @@ El objetivo del proyecto es aplicar conocimientos de desarrollo frontend, trabaj
 - Consumo de una API.
 - Diseño de interfaz con CSS.
 
-## Cómo ejecutar el proyecto manualmente
 
 ## Cómo ejecutar el proyecto localmente
 
