@@ -1,0 +1,92 @@
+
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #a09191;
+}
+
+
+
+main {
+  padding: 10px 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #020611;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.search-container input {
+  width: 320px;
+  background: #5f1b1b;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid #060606;
+  font-size: 22px;
+  outline: none;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 250px;
+  background-color: #020611;
+  background: rgb(115, 30, 30);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h2 {
+  font-size: 25px;
+}
+
+.card p {
+  padding: 0 15px;
+}
+.error {
+  text-align: center;
+  color: rgb(0, 38, 255);
+  font-size: 50px;
+ ;
+}
+
+footer  {
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  background: #20232a;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 90%;
+  }
+
+  .search-container input {
+    width: 90%;
+  }
+}
